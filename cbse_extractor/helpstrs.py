@@ -40,7 +40,7 @@ H_MODE = """The mode in which the program should operate.
 """
 
 H_INPUT_FILE = ("The input file. Type depends upon mode chosen. "
-                "File extension must be included in the file name.")
+                "File extension must be included in the file name.""\n")
 
 H_OUTPUT_FILE = ("The output file. Type depends upon mode chosen. "
-                "File extension must be included in the file name.")
+                "File extension must be included in the file name.""\n")

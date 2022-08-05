@@ -6,7 +6,9 @@ import cbse_extractor.excelifier as efir
 import cbse_extractor.helpstrs as h
 
 def main():
-    parser = argparse.ArgumentParser(description=h.PROG_DESC)
+    parser = argparse.ArgumentParser(description=h.PROG_DESC,
+                                     formatter_class=\
+                                          argparse.RawTextHelpFormatter)
     parser.add_argument("-m", "--mode", dest="op_mode",
                         default="combined",
                         help=h.H_MODE)
